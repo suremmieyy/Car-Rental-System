@@ -219,9 +219,9 @@ public class Main {
 
         // Rent a car
         Calendar start = Calendar.getInstance();
-        start.set(2022, Calendar.JANUARY, 1);
+        start.set(2024, Calendar.JUNE, 5);
         Calendar end = Calendar.getInstance();
-        end.set(2022, Calendar.JANUARY, 10);
+        end.set(2024, Calendar.JUNE, 10);
         Date startDate = start.getTime();
         Date endDate = end.getTime();
 
