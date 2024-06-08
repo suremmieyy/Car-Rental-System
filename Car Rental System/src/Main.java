@@ -235,7 +235,7 @@ public class Main {
 
         // Return the rented car
         Calendar returnDate = Calendar.getInstance();
-        returnDate.set(2024, Calendar.JUNE, 5);
+        returnDate.set(2024, Calendar.JUNE, 10);
         Date returnDt = returnDate.getTime();
         boolean isReturned = carRentalSystem.returnCar(rentalTransaction.getId(), returnDt);
         if (isReturned) {
