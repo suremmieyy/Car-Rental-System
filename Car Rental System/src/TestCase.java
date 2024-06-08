@@ -108,7 +108,7 @@ public class CarRentalSystemTest {
         Assertions.assertNotNull(rentalTransaction);
 
         Calendar invalidReturnDate = Calendar.getInstance();
-        invalidReturnDate.set(2024, Calendar.JUNE, 5);
+        invalidReturnDate.set(2024, Calendar.JUNE, 10);
 
         boolean isReturned = carRentalSystem.returnCar(rentalTransaction.getId(), invalidReturnDate.getTime());
 
